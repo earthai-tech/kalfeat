@@ -1,0 +1,15 @@
+sphinx >=3.5
+matplotlib>=3.3.0
+numpy
+scipy
+numpydoc >=1.0.0
+pytest
+pyyaml
+pyproj>=1.9.6
+pandas
+python-coveralls
+sklearn
+joblib
+seaborn
+tqdm
+autoapi 

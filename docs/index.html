@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>kalfeat documentation &#8212; kalfeat v0.1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">kalfeat v0.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><cite>kalfeat</cite> documentation</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="kalfeat-documentation">
+<h1><cite>kalfeat</cite> documentation<a class="headerlink" href="#kalfeat-documentation" title="Permalink to this heading">¶</a></h1>
+<section id="why-kalfeat">
+<h2>Why <cite>kalfeat</cite> ?<a class="headerlink" href="#why-kalfeat" title="Permalink to this heading">¶</a></h2>
+<p><cite>kalfeat</cite> (stands for <a class="reference external" href="https://doi.org/10.1029/2021wr031623">Kouadio et al.</a> features detection) is designed
+for predicting the groundwater flow rate (FR) from the geology and DC resistivity data. In developing countries,
+during the campaigns for drinking water supply (CDWS), the DC-resistivity method is mostly used especially
+the electrical resistivity profiling (ERP) for detecting the conductive zone and the vertical Electrical
+sounding (VES) to speculate about the existence of the fracture zone before proposing a drilling point.
+However, despite the use of both methods, the accurate drilling point after ERP and VES was not always the best and
+faced some difficulties. To workaround this problem, some geological companies try to propose a least three
+points the maximize their chance to get least the required FR (RFR) by the project depending on
+the number of living population in the survey area. This trick has three shortcomings:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>first, one unsuccessful borehole costs at around 25 245 $US and 8 415$US per survey, which is an expensive loss especially when the CDWS covers at least 2000</dt><dd><p>villages.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>second, if all three proposed points fail to give the RFR, the local companies must take the</dt><dd><p>whole fees in charge  to make a new survey. This occasionally creates a loss of investments from partners and governments.</p>
+</dd>
+</dl>
+</li>
+<li><p>the last issue is the numerous of unsustainable boreholes obtained after a few year of use by the population. Indeed, the borehole becomes unsustainable when it dried up after a few years of use. This is a critial</p></li>
+</ul>
+<blockquote>
+<div><p>issue frequently occurs when the FR is sufficiently not enough to satisfy the living population demand. Although, the climate change is one
+of the cause of that issue, the other factor is caused by  the use of the traditional criteria (criteria mostly used by geophysicists to speculate about the
+goodness of the proposed drilling point) for determining the expected drilling points using ERP and VES.</p>
+</div></blockquote>
+</section>
+<section id="benefits-of-kalfeat">
+<h2>Benefits of <cite>kalfeat</cite><a class="headerlink" href="#benefits-of-kalfeat" title="Permalink to this heading">¶</a></h2>
+<p>Faced with the problems enumerated above, <cite>kalfeat</cite> is designed to bring a piece solution in the detection of the geo-electrical features which are known as
+the foremost criteria to select the right location before any drilling locations. The aim of <cite>kalfeat</cite> is twofold:</p>
+<ol class="arabic simple">
+<li><p>minimize the rate of unsuccessful drillings after the geological survey during CDWS and save money from geophysical and drilling companies.</p></li>
+<li><p>maximize the number of boreholes intended for the populations and also encourage the partners to indirectly solve the problem of water scarcity.</p></li>
+</ol>
+<p>One can read the paper below to better understand the <cite>kalfeat</cite> features definitions:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Kouadio, K. L., Kouame, L. N., Drissa, C., Mi, B., Kouamelan, K. S., Gnoleba, S. P. D., et al. (2022). Groundwater Flow Rate Prediction from Geo‐Electrical Features using Support Vector Machines. Water Resources Research, (May 2022). https://doi.org/10.1029/2021wr031623*
+</pre></div>
+</div>
+</section>
+<section id="kalfeat-api">
+<h2><cite>kalfeat</cite> API<a class="headerlink" href="#kalfeat-api" title="Permalink to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#installing-via-pip">Installing via pip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#intalling-from-source">Intalling from source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#required-dependencies">Required Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#additional-resources">Additional Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html"><cite>kalfeat</cite> API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#package-methods">Package Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#package-tools">Package Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#package-properties">Package Properties</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><cite>kalfeat</cite> documentation</a><ul>
+<li><a class="reference internal" href="#why-kalfeat">Why <cite>kalfeat</cite> ?</a></li>
+<li><a class="reference internal" href="#benefits-of-kalfeat">Benefits of <cite>kalfeat</cite></a></li>
+<li><a class="reference internal" href="#kalfeat-api"><cite>kalfeat</cite> API</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="installation.html"
+                          title="next chapter">Installation</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">kalfeat v0.1.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><cite>kalfeat</cite> documentation</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2022, Kouadio Laurent.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.2.
+    </div>
+  </body>
+</html>
