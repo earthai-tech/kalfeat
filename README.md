@@ -36,5 +36,5 @@ One can read the paper below to better understand the `kalfeat` features definit
 1. Key Laboratory of Resources and Hazard detection, School of Geosciences and Info-physics, [Central South University](https://en.csu.edu.cn/), China.
 2. Laboratoire de Géologie Ressources Minérales et Energétiques, UFR des Sciences de la Terre et des Ressources Minières, [Université Félix Houphouët-Boigny]( https://www.univ-fhb.edu.ci/index.php/ufr-strm/), Cote d'Ivoire.
 
-* Developer: 1, 2- Kouadio Laurent,  <etanoyau@gmail.com> / <lkk@csu.edu.cn>.
+* Developer: 1, 2- Kouadio Laurent,  <etanoyau@gmail.com> / <lkouao@csu.edu.cn>.
 
