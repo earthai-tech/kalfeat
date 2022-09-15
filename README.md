@@ -25,6 +25,9 @@ the foremost criteria to select the right location before any drilling locations
 
 `kalfeat` is under GNU-GPL License v3.
 
+## Documentation 
+* [_kalfeat_ API](https://kalfeat.readthedocs.io/en/latest/) 
+
 ## Citations 
 One can read the paper below to better understand the `kalfeat` features definitions. 
 > *Kouadio, K. L., Kouame, L. N., Drissa, C., Mi, B., Kouamelan, K. S., Gnoleba, S. P. D., et al. (2022). Groundwater Flow Rate Prediction from Geo‐Electrical Features using Support Vector Machines. Water Resources Research, (May 2022). https://doi.org/10.1029/2021wr031623*
