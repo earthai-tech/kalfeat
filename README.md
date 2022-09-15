@@ -1,7 +1,7 @@
 # kalfeat
 
 ### _A light package for fast detecting the geo-electrical features_
-[![Requirements Status](https://requires.io/github/WEgeophysics/kalfeat/requirements.svg?branch=develop)](https://requires.io/github/WEgeophysics/kalfeat/requirements/?branch=develop) ![GitHub](https://img.shields.io/github/license/WEgeophysics/kalfeat?color=red&logo=GNU&style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/WEgeophysics/kalfeat?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/wegeophysics/kalfeat?style=flat-square)
+[![Requirements Status](https://requires.io/github/WEgeophysics/kalfeat/requirements.svg?branch=develop)](https://requires.io/github/WEgeophysics/kalfeat/requirements/?branch=develop) ![GitHub](https://img.shields.io/github/license/wegeophysics/kalfeat?color=g&label=licence&logo=GNU&logoColor=red%20&style=flat-square) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/wegeophysics/kalfeat?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/wegeophysics/kalfeat?style=flat-square)
 
 ## Problematic 
 `kalfeat`(stands for [Kouadio et al.](https://doi.org/10.1029/2021wr031623) features detection) is designed for predicting the groundwater flow rate (FR)  from the geology and DC resistivity data. In developing countries, during the campaigns for drinking water supply (CDWS), the DC-resistivity method is mostly used especially 
