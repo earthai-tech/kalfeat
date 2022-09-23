@@ -48,10 +48,5 @@ These modules should build automatically if you are installing via `pip`. If you
 the source code, or if pip fails to load them, they can be loaded with the same `pip` syntax as
 above.   
 
-Additional Resources
---------------------
-The `pycsamt user guide <https://github.com/WEgeophysics/pyCSAMT/blob/master/docs/user_guide.pdf>`_ contains recipes that can help you get start up with pycsamt.
-Moreover, to go through step by step installation, one may refer to `Step by Step Installation Guide <https://github.com/WEgeophysics/pyCSAMT/wiki/pyCSAMT-installation-guide-for-Windows--and-Linux>`_.
-
 
 
