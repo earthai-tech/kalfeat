@@ -15,16 +15,13 @@ during the campaigns for drinking water supply (CDWS), the DC-resistivity method
 the electrical resistivity profiling (ERP) for detecting the conductive zone and the vertical Electrical 
 sounding (VES) to speculate about the existence of the fracture zone before proposing a drilling point. 
 However, despite the use of both methods, the accurate drilling point after ERP and VES was not always the best and 
-faced some difficulties. To workaround this problem, some geological companies try to propose a least three 
-points the maximize their chance to get least the required FR (RFR) by the project depending on 
+faced some difficulties. To workaround this problem, some geological companies try to propose at least three 
+points to maximize their chance to get the FR required (FRR) by the project depending on 
 the number of living population in the survey area. This trick has three shortcomings:
  
-* first, one unsuccessful borehole costs at around 25 245 $US and 8 415$US per survey, which is an expensive loss especially when the CDWS covers at least 2000 
-    villages. 
-* second, if all three proposed points fail to give the RFR, the local companies must take the 
-    whole fees in charge  to make a new survey. This occasionally creates a loss of investments from partners and governments. 
-* the last issue is the numerous of unsustainable boreholes obtained after a few year of use by the population. Indeed, the borehole becomes unsustainable when it dried up after a few years of use. This is a critial 
- issue frequently occurs when the FR is sufficiently not enough to satisfy the living population demand. Although, the climate change is one 
+* first, one unsuccessful borehole costs at around 25 245 $US and 8 415$US per survey, which is an expensive loss especially when the CDWS covers at least 2000 villages. 
+* second, if all three proposed points fail to give the RFR, the local companies must take the whole fees in charge  to make a new survey. This occasionally creates a loss of investments from partners and governments. 
+* the last issue is the numerous of unsustainable boreholes obtained after a few year of use by the population. Indeed, the borehole becomes unsustainable when it dried up after a few years of use. This is a critial issue frequently occurs when the FR is sufficiently not enough to satisfy the living population demand. Although, the climate change is one 
  of the cause of that issue, the other factor is caused by  the use of the traditional criteria (criteria mostly used by geophysicists to speculate about the 
  goodness of the proposed drilling point) for determining the expected drilling points using ERP and VES. 
 

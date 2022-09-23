@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.abspath('../kalfeat'))
 # -- Project information -----------------------------------------------------
 
 project = 'kalfeat'
-copyright = '2022, Kouadio Laurent'
+copyright = '2022, LKouadio'
 author = 'Daniel'
 
 # The full version, including alpha/beta/rc tags
